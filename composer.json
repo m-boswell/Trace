@@ -1,0 +1,21 @@
+{
+    "name": "trace/trace",
+    "description": "A PHP simulator of an HTML DOM tree.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Boswell"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Trace\\Trace\\": "./inc"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Trace\\Tests\\": "./tests"
+        }
+    },
+    "require": {}
+}
